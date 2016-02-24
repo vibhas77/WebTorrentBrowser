@@ -1,0 +1,44 @@
+{
+  "name": "webtorrentbrowser",
+  "version": "1.0.0",
+  "description": "Fully featured Torrent Client for your server using WebTorrent and NodeJS accessible using GUI in your Browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vibhas777/WebTorrentBrowser.git"
+  },
+  "author": "Vibhas Goyal <vibhas777@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vibhas777/WebTorrentBrowser/issues"
+  },
+  "homepage": "https://github.com/vibhas777/WebTorrentBrowser#readme",
+  "dependencies" : {
+    "express" : "~4.0.0",
+    "ejs" : "~0.8.5",
+    "mongoose" : "~3.8.1",
+    "passport" : "~0.1.17",
+    "passport-local" : "~0.1.6",
+    "passport-facebook" : "~1.0.2",
+    "passport-twitter" : "~1.0.2",
+    "passport-google-oauth" : "~0.1.5",
+    "connect-flash" : "~0.1.1",
+    "bcrypt-nodejs" : "latest",
+
+    "webtorrent" : "latest",
+
+    "morgan": "~1.0.0",
+    "body-parser": "~1.0.0",
+    "cookie-parser": "~1.0.0",
+    "method-override": "~1.0.0",
+    "express-session": "~1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.0"
+  }
+}
